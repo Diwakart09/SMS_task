@@ -1,0 +1,12 @@
+Please follow below steps to install
+Please note that, i worked on Java webservices mostly, i haven't developed Python REST api earlier, this is my first. I had issues with DB connection to my local SQL setup, i used dictionaries instead.
+
+1.pip install flask-restful
+
+2.git clone https://github.com/flask-restful/flask-restful.git
+3.cd flask-restful
+4.python setup.py develop
+5.python api.py
+6.http://127.0.0.1:5000/getallids # to get all chemical elements
+6.http://127.0.0.1:5000/6 # to get chemical compositions
+
